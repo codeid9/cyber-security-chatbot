@@ -1,0 +1,9 @@
+recommend(
+    beginner,
+    kali_linux,
+    web_security,
+    javascript,
+    burp_suite,
+    portswigger,
+    web_penetration_tester
+).
