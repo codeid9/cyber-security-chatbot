@@ -10,3 +10,8 @@ print_list([H|T]) :-
     nl,
 
     print_list(T).
+
+title(Text) :-
+    line,
+    write(Text), nl,
+    line.

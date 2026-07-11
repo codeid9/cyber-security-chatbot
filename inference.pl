@@ -42,7 +42,9 @@ recommend(Experience, OS, Domain, Language, Tool, Lab, network_security_analyst)
 
     Language = python,
 
-    Tool = wireshark.
+    Tool = wireshark,
+    
+    Lab = tryhackme.
 
 
 recommend(Experience, OS, Domain, Language, Tool, Lab, soc_analyst) :-
@@ -55,7 +57,9 @@ recommend(Experience, OS, Domain, Language, Tool, Lab, soc_analyst) :-
 
     Language = python,
 
-    (Tool = wireshark ; Tool = metasploit).
+    (Tool = wireshark ; Tool = metasploit),
+    
+    (Lab = tryhackme ; Lab = hackthebox).
 
 
 recommend(Experience, OS, Domain, Language, Tool, Lab, malware_analyst) :-
@@ -68,7 +72,9 @@ recommend(Experience, OS, Domain, Language, Tool, Lab, malware_analyst) :-
 
     (Language = c ; Language = python),
 
-    Tool = metasploit.
+    Tool = metasploit,
+    
+    Lab = hackthebox.
 
 
 recommend(Experience, OS, Domain, Language, Tool, Lab, digital_forensics_analyst) :-
@@ -81,4 +87,6 @@ recommend(Experience, OS, Domain, Language, Tool, Lab, digital_forensics_analyst
 
     Language = python,
 
-    Tool = wireshark.
+    Tool = wireshark,
+    
+    Lab = tryhackme.

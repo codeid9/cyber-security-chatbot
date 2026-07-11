@@ -98,3 +98,47 @@ roadmap(digital_forensics_analyst,
 'Volatility',
 'Memory Analysis'
 ]).
+
+reason(web_penetration_tester,
+[
+'You selected Web Security.',
+'You like Burp Suite.',
+'You practice on PortSwigger/TryHackMe.',
+'You know JavaScript or Python.'
+]).
+
+reason(bug_bounty_hunter,
+[
+'You have intermediate experience.',
+'You enjoy finding vulnerabilities.',
+'You use Burp Suite.',
+'You practice on Hack The Box or PortSwigger.'
+]).
+
+reason(network_security_analyst,
+[
+'You are interested in Network Security.',
+'You use Wireshark.',
+'You know Python.'
+]).
+
+reason(soc_analyst,
+[
+'You enjoy defensive security.',
+'You know Wireshark or Metasploit.',
+'You have intermediate experience.'
+]).
+
+reason(malware_analyst,
+[
+'You know C or Python.',
+'You are interested in Malware Analysis.',
+'You use Metasploit.'
+]).
+
+reason(digital_forensics_analyst,
+[
+'You like Digital Forensics.',
+'You know Python.',
+'You use Wireshark.'
+]).

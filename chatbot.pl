@@ -60,7 +60,12 @@ ask_lab(Name, Experience, OS, Domain, Language, Tool) :-
     read(Lab),
 
     nl,
-    write('Analyzing your profile...'), nl,
+    line,
+    write('Analyzing your profile '),
+    write(Name),
+    write('...'),
+    nl,
+    line,
 
  (
     recommend(
@@ -98,6 +103,15 @@ ask_lab(Name, Experience, OS, Domain, Language, Tool) :-
         nl,
         write('Learning Roadmap'), nl,
         print_list(Roadmap),
+
+        line,
+
+        reason(Career, Reasons),
+
+        nl,
+        write('Why this career?'), nl,
+
+        print_list(Reasons),
 
         line
 
